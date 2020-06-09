@@ -10,6 +10,55 @@
   <title>Stress Test</title>
 </head>
 <body>
-  
+  <div class = "container">
+    <div class = "page-header">Stress Test</div>
+    <h2>Take this test to get an overall view of your stress-o-meter</h2>
+        <form id = "stressTest">
+          <div class = "form-group">
+            <p>In the past two weeks I have: </p>
+            <input type = "checkbox" name="stress-aggrivators" value="Have Headaches">Headaches<br>
+            <input type = "checkbox" name="stress-aggrivators" value="Heart Palitations">Heart Palpitations<br>
+            <input type = "checkbox" name="stress-aggrivators" value="Night Sweats">Night Sweats<br>
+            <input type = "checkbox" name="stress-aggrivators" value="Jaw Tightness">Jaw Tightness<br>
+            <input type = "checkbox" name="stress-aggrivators" value="Teeth Grinding">Teeth Grinding<br>
+
+            <input type ="checkbox" name="stress-preventors" value="Sleep"> Slept at least 7 hours each<br>
+            <input type ="checkbox" name="stress-preventors" value="Exercise Often"> Exercised 5 days a week<br>
+            <input type ="checkbox" name="stress-preventors" value="Eat Healthy"> Getting adequate nutrition<br>
+            <input type ="checkbox" name="stress-preventors" value="Enjoy occassional drinks"> Enjoying a nightcap occassionally<br>
+            <input type ="checkbox" name="stress-preventors" value="Engage in Self-care"> Taking care of yourself<br>
+          </div>
+          <button type = "submit">Enter your results</button>
+        </form>
+        <div class = "container">
+          <div class = "row">
+            <div class = "col-md-6">
+              <div id = "StressorsList">
+                <h4>You mentioned that you: </h4>
+                <ul>
+                </ul>
+              </div>
+              <div id = "RelaxorsList">
+                <h4>You mentioned that you: </h4>
+                <ul>
+                </ul>
+              </div>
+            </div>
+            <div class = "col-md-6">
+              <div id = "great">
+                <p> You're doing great! Keep up the good work </p>
+                <img src = images/greatjob.jpg alt = "great job sticker">
+              </div>
+              <div id = "okay">
+                <p> You're doing alright but you could improve your stress by adding more relaxors or mitigating some stressors </p>
+              </div>
+              <div id = "need-help">
+                <p> You seem pretty stressed. Try to be less stressed. </p>
+                <img src = images/needs-improvement.jpg alt = "needs improvement sticker">
+              </div>
+            </div>
+        </div>
+      </div>
+  </div>
 </body>
 </html>
